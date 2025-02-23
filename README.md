@@ -1,0 +1,3 @@
+# Case-Insensitive Query Issue in MongoDB
+
+This repository demonstrates a common issue encountered when performing case-insensitive queries in MongoDB using regular expressions. The provided code attempts to find users with the name "John", regardless of capitalization. However, it unexpectedly returns no results. This is likely due to an incorrect usage or configuration of the regular expression or a mismatch in data casing.
